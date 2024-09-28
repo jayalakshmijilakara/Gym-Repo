@@ -1,0 +1,92 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-29 00:22:07.828832",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "slot_details",
+  "from_time",
+  "to_time",
+  "food_ideas_section",
+  "table_smeh",
+  "drink_ideas_section",
+  "table_hpud"
+ ],
+ "fields": [
+  {
+   "fieldname": "slot_details",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Slot Details",
+   "options": "In Take Slot",
+   "reqd": 1
+  },
+  {
+   "fetch_from": "slot_details.from_time",
+   "fieldname": "from_time",
+   "fieldtype": "Time",
+   "label": "From Time",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fetch_from": "slot_details.to_time",
+   "fieldname": "to_time",
+   "fieldtype": "Time",
+   "label": "To Time",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "food_ideas_section",
+   "fieldtype": "Section Break",
+   "label": "Food Idea's"
+  },
+  {
+   "fieldname": "table_smeh",
+   "fieldtype": "Table",
+   "label": "Food",
+   "options": "Food",
+   "reqd": 1
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "drink_ideas_section",
+   "fieldtype": "Section Break",
+   "label": "Drink Idea's"
+  },
+  {
+   "fieldname": "table_hpud",
+   "fieldtype": "Table",
+   "label": "Drink",
+   "options": "Drink",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-29 00:29:48.382429",
+ "modified_by": "Administrator",
+ "module": "Gym Erp",
+ "name": "Food Suggestion",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
