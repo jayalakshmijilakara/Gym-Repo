@@ -1,0 +1,152 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": ".#####",
+ "creation": "2024-09-28 22:43:35.337398",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "full_name",
+  "age",
+  "whatsapp_number",
+  "default_unit_of_measue",
+  "weight",
+  "height",
+  "user_id",
+  "column_break_qygp",
+  "food_preference",
+  "food_allergies",
+  "medical_issues",
+  "place",
+  "who_refer_me",
+  "section_break_exni",
+  "inch_measurementcm",
+  "pre_workout_photos_section",
+  "table_liuw"
+ ],
+ "fields": [
+  {
+   "fieldname": "full_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Full Name",
+   "reqd": 1
+  },
+  {
+   "fieldname": "age",
+   "fieldtype": "Int",
+   "label": "Age"
+  },
+  {
+   "fieldname": "default_unit_of_measue",
+   "fieldtype": "Link",
+   "label": "Default Unit of Measue",
+   "options": "UOM",
+   "reqd": 1
+  },
+  {
+   "fieldname": "weight",
+   "fieldtype": "Float",
+   "label": "Weight",
+   "reqd": 1
+  },
+  {
+   "fieldname": "height",
+   "fieldtype": "Int",
+   "label": "Height",
+   "reqd": 1
+  },
+  {
+   "fieldname": "food_preference",
+   "fieldtype": "Select",
+   "label": "Food Preference",
+   "options": "\nVeg\nNon-Veg",
+   "reqd": 1
+  },
+  {
+   "fieldname": "food_allergies",
+   "fieldtype": "Small Text",
+   "label": "Food Allergies"
+  },
+  {
+   "fieldname": "medical_issues",
+   "fieldtype": "Small Text",
+   "label": "Medical Issues"
+  },
+  {
+   "fieldname": "column_break_qygp",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "whatsapp_number",
+   "fieldtype": "Phone",
+   "label": "Whatsapp Number",
+   "reqd": 1
+  },
+  {
+   "fieldname": "place",
+   "fieldtype": "Link",
+   "label": "Place",
+   "options": "Territory"
+  },
+  {
+   "fieldname": "who_refer_me",
+   "fieldtype": "Data",
+   "label": "Who refer me "
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "section_break_exni",
+   "fieldtype": "Section Break",
+   "label": "Measurements"
+  },
+  {
+   "fieldname": "inch_measurementcm",
+   "fieldtype": "Table",
+   "label": "INCH Measurement/CM",
+   "options": "Inch Measurement"
+  },
+  {
+   "collapsible": 1,
+   "fieldname": "pre_workout_photos_section",
+   "fieldtype": "Section Break",
+   "label": "Pre Workout Photos"
+  },
+  {
+   "fieldname": "table_liuw",
+   "fieldtype": "Table",
+   "options": "Pre-Workout Photos"
+  },
+  {
+   "fieldname": "user_id",
+   "fieldtype": "Data",
+   "label": "User ID",
+   "read_only": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-28 23:13:12.056196",
+ "modified_by": "Administrator",
+ "module": "Gym Erp",
+ "name": "Gym Member",
+ "naming_rule": "Expression (old style)",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
