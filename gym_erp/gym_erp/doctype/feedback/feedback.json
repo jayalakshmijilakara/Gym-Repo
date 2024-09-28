@@ -1,0 +1,95 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2024-09-29 00:04:31.802446",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "member_id",
+  "default_unit_of_measure",
+  "current_weight",
+  "post_workout_photos_section",
+  "table_boka",
+  "section_break_qvmv",
+  "feedback",
+  "video"
+ ],
+ "fields": [
+  {
+   "fieldname": "member_id",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Member ID",
+   "options": "Gym Member",
+   "reqd": 1
+  },
+  {
+   "default": "Kg",
+   "fieldname": "default_unit_of_measure",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Default Unit of Measure",
+   "options": "UOM",
+   "read_only": 1,
+   "reqd": 1
+  },
+  {
+   "fieldname": "current_weight",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Current Weight",
+   "reqd": 1
+  },
+  {
+   "fieldname": "post_workout_photos_section",
+   "fieldtype": "Section Break",
+   "label": "Post Workout Photos"
+  },
+  {
+   "fieldname": "table_boka",
+   "fieldtype": "Table",
+   "options": "Pre-Workout Photos",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_qvmv",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "feedback",
+   "fieldtype": "Small Text",
+   "in_list_view": 1,
+   "label": "Feedback",
+   "reqd": 1
+  },
+  {
+   "fieldname": "video",
+   "fieldtype": "Attach",
+   "label": "Video"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-09-29 00:09:53.038300",
+ "modified_by": "Administrator",
+ "module": "Gym Erp",
+ "name": "Feedback",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}

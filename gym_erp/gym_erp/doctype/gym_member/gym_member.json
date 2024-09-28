@@ -13,6 +13,7 @@
   "weight",
   "height",
   "user_id",
+  "fee_structure",
   "column_break_qygp",
   "food_preference",
   "food_allergies",
@@ -122,11 +123,18 @@
    "fieldtype": "Data",
    "label": "User ID",
    "read_only": 1
+  },
+  {
+   "fieldname": "fee_structure",
+   "fieldtype": "Link",
+   "label": "Fee Structure",
+   "options": "Fee Package",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-28 23:13:12.056196",
+ "modified": "2024-09-28 23:45:52.797522",
  "modified_by": "Administrator",
  "module": "Gym Erp",
  "name": "Gym Member",
