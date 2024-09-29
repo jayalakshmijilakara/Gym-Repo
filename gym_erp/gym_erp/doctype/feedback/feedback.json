@@ -73,9 +73,8 @@
   },
   {
    "fieldname": "rating",
-   "fieldtype": "Select",
+   "fieldtype": "Float",
    "label": "Rating",
-   "options": "\n1\n2\n3\n4\n5",
    "reqd": 1
   },
   {
@@ -85,7 +84,7 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-29 18:36:57.368538",
+ "modified": "2024-09-29 23:18:58.676324",
  "modified_by": "Administrator",
  "module": "Gym Erp",
  "name": "Feedback",
