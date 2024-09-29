@@ -14,6 +14,14 @@ doctype_js = {
    "Fees Collection" : "public/js/fee_collection.js"  
 }
 
+scheduler_events = {
+    "cron": {
+        "* * * * *": [  
+            "gym_erp.custom_scripts.fees_col.update_fees_collection_status"
+        ]
+    }
+}
+
 
 # required_apps = []
 
