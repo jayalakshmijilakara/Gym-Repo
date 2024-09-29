@@ -1,6 +1,11 @@
 # Gym ERP
 A complete ERP solution for gyms to streamline operations, enhance member engagement, and optimize management.
 
+![Gym Dashboard](./images/food_dashboard.png)
+![Gym Dashboard](./images/amount_dashboard.png)
+
+
+
 ## Features and Functionalities
 
 **Membership Management** : 

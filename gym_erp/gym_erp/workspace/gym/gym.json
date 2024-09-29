@@ -1,6 +1,6 @@
 {
  "charts": [],
- "content": "[{\"id\":\"ePLY7GnNFX\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Welcome to Your Fitness Journey!<b></b></span>\",\"col\":12}},{\"id\":\"snw_ypGV-E\",\"type\":\"paragraph\",\"data\":{\"text\":\"&nbsp;Congratulations on taking the first step toward a healthier and stronger you by joining the gym!&nbsp; &nbsp; &nbsp;Whether you're looking to lose weight, build muscle, boost your energy, or simply feel better,&nbsp; &nbsp;you've made a fantastic choice. \",\"col\":8}},{\"id\":\"O8ju9SUSWd\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"wu-xKEeyeq\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Get Started Today!</b></span>\",\"col\":12}},{\"id\":\"-WJSjsdoHi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b></b></span>Grab your workout gear, step into the gym, and remember that every expert was once a beginner. You\u2019ve got this!\",\"col\":9}},{\"id\":\"9knPh9y3vn\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Let\u2019s make it happen!</b></span>\",\"col\":4}},{\"id\":\"cBTrxvOTuA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"New to Gym\",\"col\":3}},{\"id\":\"MOMg-dXycc\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"fepkiWabHw\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"N3Irh_CXR1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Member\",\"col\":4}},{\"id\":\"MbzmlfZOTS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendance\",\"col\":4}},{\"id\":\"U-s3QAgJGC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fees Collection\",\"col\":4}},{\"id\":\"10nuE6c8D5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Food Suggestion\",\"col\":4}},{\"id\":\"GCvDI2BGfA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Feedback\",\"col\":4}}]",
+ "content": "[{\"id\":\"ePLY7GnNFX\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\">Welcome to Your Fitness Journey!<b></b></span>\",\"col\":12}},{\"id\":\"snw_ypGV-E\",\"type\":\"paragraph\",\"data\":{\"text\":\"&nbsp;Congratulations on taking the first step toward a healthier and stronger you by joining the gym!&nbsp; &nbsp; &nbsp;Whether you're looking to lose weight, build muscle, boost your energy, or simply feel better,&nbsp; &nbsp;you've made a fantastic choice. \",\"col\":8}},{\"id\":\"O8ju9SUSWd\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"wu-xKEeyeq\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Get Started Today!</b></span>\",\"col\":12}},{\"id\":\"-WJSjsdoHi\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b></b></span>Grab your workout gear, step into the gym, and remember that every expert was once a beginner. You\u2019ve got this!\",\"col\":9}},{\"id\":\"9knPh9y3vn\",\"type\":\"paragraph\",\"data\":{\"text\":\"<span class=\\\"h5\\\"><b>Let\u2019s make it happen!</b></span>\",\"col\":4}},{\"id\":\"MOMg-dXycc\",\"type\":\"spacer\",\"data\":{\"col\":12}},{\"id\":\"fepkiWabHw\",\"type\":\"header\",\"data\":{\"text\":\"<span class=\\\"h4\\\"><b>Your Shortcuts</b></span>\",\"col\":12}},{\"id\":\"N3Irh_CXR1\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Gym Member\",\"col\":4}},{\"id\":\"MbzmlfZOTS\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Attendance\",\"col\":4}},{\"id\":\"U-s3QAgJGC\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Fees Collection\",\"col\":4}},{\"id\":\"10nuE6c8D5\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Food Suggestion\",\"col\":4}},{\"id\":\"GCvDI2BGfA\",\"type\":\"shortcut\",\"data\":{\"shortcut_name\":\"Feedback\",\"col\":4}}]",
  "creation": "2024-09-29 15:41:10.082199",
  "custom_blocks": [],
  "docstatus": 0,
@@ -13,7 +13,7 @@
  "is_hidden": 0,
  "label": "Gym",
  "links": [],
- "modified": "2024-09-29 16:21:45.820784",
+ "modified": "2024-09-30 00:08:22.995185",
  "modified_by": "Administrator",
  "module": "Gym Erp",
  "name": "Gym",
@@ -54,14 +54,6 @@
    "doc_view": "List",
    "label": "Food Suggestion",
    "link_to": "Food Suggestion",
-   "stats_filter": "[]",
-   "type": "DocType"
-  },
-  {
-   "color": "Grey",
-   "doc_view": "New",
-   "label": "New to Gym",
-   "link_to": "Gym Member",
    "stats_filter": "[]",
    "type": "DocType"
   },
