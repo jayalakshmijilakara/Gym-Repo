@@ -10,7 +10,8 @@
   "fee_package",
   "from_date",
   "to_date",
-  "amount"
+  "amount",
+  "month"
  ],
  "fields": [
   {
@@ -55,11 +56,17 @@
    "label": "Amount",
    "read_only": 1,
    "reqd": 1
+  },
+  {
+   "fetch_from": "fee_package.month",
+   "fieldname": "month",
+   "fieldtype": "Int",
+   "label": "Month"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-28 23:56:19.172285",
+ "modified": "2024-09-29 00:53:11.575722",
  "modified_by": "Administrator",
  "module": "Gym Erp",
  "name": "Fees Collection",

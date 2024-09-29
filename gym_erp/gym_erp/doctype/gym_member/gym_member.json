@@ -14,6 +14,7 @@
   "height",
   "user_id",
   "fee_structure",
+  "branch",
   "column_break_qygp",
   "food_preference",
   "food_allergies",
@@ -153,6 +154,7 @@
    "read_only": 1
   },
   {
+   "default": "0",
    "fieldname": "is_group",
    "fieldtype": "Check",
    "label": "Is Group"
@@ -169,12 +171,19 @@
    "ignore_user_permissions": 1,
    "label": "Parent Gym Member",
    "options": "Gym Member"
+  },
+  {
+   "fieldname": "branch",
+   "fieldtype": "Link",
+   "label": "Branch",
+   "options": "Branch",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2024-09-29 00:17:04.716609",
+ "modified": "2024-09-29 00:35:43.327259",
  "modified_by": "Administrator",
  "module": "Gym Erp",
  "name": "Gym Member",
