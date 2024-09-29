@@ -18,6 +18,7 @@
    "label": "Present"
   },
   {
+   "default": "Today",
    "fieldname": "date",
    "fieldtype": "Date",
    "in_list_view": 1,
@@ -28,7 +29,7 @@
  "index_web_pages_for_search": 1,
  "istable": 1,
  "links": [],
- "modified": "2024-09-29 15:33:06.852156",
+ "modified": "2024-09-29 15:37:42.611298",
  "modified_by": "Administrator",
  "module": "Gym Erp",
  "name": "Today Class",
