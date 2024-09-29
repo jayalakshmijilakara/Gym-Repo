@@ -6,22 +6,25 @@
  "doctype": "DocType",
  "engine": "InnoDB",
  "field_order": [
+  "email",
   "full_name",
   "age",
-  "whatsapp_number",
   "default_unit_of_measue",
   "weight",
   "height",
-  "user_id",
-  "fee_structure",
-  "branch",
   "column_break_qygp",
+  "whatsapp_number",
+  "fee_structure",
+  "who_refer_me",
+  "place",
+  "branch",
+  "user_id",
+  "section_break_qbbl",
   "food_preference",
   "food_allergies",
-  "medical_issues",
-  "place",
+  "column_break_qtbu",
   "gym_settings",
-  "who_refer_me",
+  "medical_issues",
   "section_break_exni",
   "inch_measurementcm",
   "pre_workout_photos_section",
@@ -34,6 +37,7 @@
  ],
  "fields": [
   {
+   "fetch_from": "email.full_name",
    "fieldname": "full_name",
    "fieldtype": "Data",
    "in_list_view": 1,
@@ -43,7 +47,8 @@
   {
    "fieldname": "age",
    "fieldtype": "Int",
-   "label": "Age"
+   "label": "Age",
+   "reqd": 1
   },
   {
    "fieldname": "default_unit_of_measue",
@@ -189,12 +194,27 @@
    "label": "Photos Collection",
    "options": "Pre-Workout Photos",
    "reqd": 1
+  },
+  {
+   "fieldname": "email",
+   "fieldtype": "Link",
+   "label": "Email",
+   "options": "User",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_qbbl",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "column_break_qtbu",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2024-09-29 13:14:54.379911",
+ "modified": "2024-09-29 19:40:27.665750",
  "modified_by": "Administrator",
  "module": "Gym Erp",
  "name": "Gym Member",

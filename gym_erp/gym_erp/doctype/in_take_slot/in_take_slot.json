@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "ITS-.###",
  "creation": "2024-09-29 00:11:03.337871",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -33,10 +34,11 @@
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-29 00:13:22.023604",
+ "modified": "2024-09-29 18:32:18.420045",
  "modified_by": "Administrator",
  "module": "Gym Erp",
  "name": "In Take Slot",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {

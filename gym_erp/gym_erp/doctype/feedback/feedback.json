@@ -1,6 +1,7 @@
 {
  "actions": [],
  "allow_rename": 1,
+ "autoname": "Feedback-.###",
  "creation": "2024-09-29 00:04:31.802446",
  "doctype": "DocType",
  "engine": "InnoDB",
@@ -9,7 +10,9 @@
   "default_unit_of_measure",
   "current_weight",
   "post_workout_photos_section",
-  "table_boka",
+  "post_photos",
+  "column_break_ghon",
+  "rating",
   "section_break_qvmv",
   "feedback",
   "video"
@@ -46,12 +49,6 @@
    "label": "Post Workout Photos"
   },
   {
-   "fieldname": "table_boka",
-   "fieldtype": "Table",
-   "options": "Pre-Workout Photos",
-   "reqd": 1
-  },
-  {
    "fieldname": "section_break_qvmv",
    "fieldtype": "Section Break"
   },
@@ -66,14 +63,33 @@
    "fieldname": "video",
    "fieldtype": "Attach",
    "label": "Video"
+  },
+  {
+   "fieldname": "post_photos",
+   "fieldtype": "Link",
+   "label": "Post photos",
+   "options": "Pre-Workout Photos",
+   "reqd": 1
+  },
+  {
+   "fieldname": "rating",
+   "fieldtype": "Select",
+   "label": "Rating",
+   "options": "\n1\n2\n3\n4\n5",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_ghon",
+   "fieldtype": "Column Break"
   }
  ],
  "index_web_pages_for_search": 1,
  "links": [],
- "modified": "2024-09-29 00:09:53.038300",
+ "modified": "2024-09-29 18:36:57.368538",
  "modified_by": "Administrator",
  "module": "Gym Erp",
  "name": "Feedback",
+ "naming_rule": "Expression (old style)",
  "owner": "Administrator",
  "permissions": [
   {
