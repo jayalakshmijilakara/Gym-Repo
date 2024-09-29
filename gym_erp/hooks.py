@@ -8,7 +8,11 @@ app_license = "mit"
 # Apps
 # ------------------
 
-doctype_js = { "Gym Member" : "public/js/gym_member.js"}
+doctype_js = { 
+    "Gym Member" : "public/js/gym_member.js", 
+    "Gym Setttings" : "public/js/gym_settings.js"  
+}
+
 
 # required_apps = []
 

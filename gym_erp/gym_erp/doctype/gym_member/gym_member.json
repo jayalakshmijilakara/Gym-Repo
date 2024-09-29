@@ -20,6 +20,7 @@
   "food_allergies",
   "medical_issues",
   "place",
+  "gym_settings",
   "who_refer_me",
   "section_break_exni",
   "inch_measurementcm",
@@ -178,12 +179,19 @@
    "label": "Branch",
    "options": "Branch",
    "reqd": 1
+  },
+  {
+   "fieldname": "gym_settings",
+   "fieldtype": "Link",
+   "label": "Gym Settings",
+   "options": "Gym Setttings",
+   "reqd": 1
   }
  ],
  "index_web_pages_for_search": 1,
  "is_tree": 1,
  "links": [],
- "modified": "2024-09-29 00:35:43.327259",
+ "modified": "2024-09-29 13:03:28.067738",
  "modified_by": "Administrator",
  "module": "Gym Erp",
  "name": "Gym Member",
