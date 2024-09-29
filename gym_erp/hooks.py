@@ -10,7 +10,8 @@ app_license = "mit"
 
 doctype_js = { 
     "Gym Member" : "public/js/gym_member.js", 
-    "Gym Setttings" : "public/js/gym_settings.js"  
+    "Gym Setttings" : "public/js/gym_settings.js" ,
+   "Fees Collection" : "public/js/fee_collection.js"  
 }
 
 
